@@ -11,6 +11,7 @@ El objetivo de este mapa es desmantelar la ilusión de los esquemas de recompens
 ### I. REGLAS FUNDAMENTALES DEL MAPEO
 
 Para construir un mapa de incentivos con validez forense, el analista debe operar bajo tres axiomas:
+
 1. **El discurso no compite con la consecuencia:** Si la política formal exige calidad, pero el jefe directo exige volumen bajo amenaza de despido, el incentivo de volumen es el único incentivo operativo.
 2. **El incentivo dominante es el que duele ignorar:** Un mandato que no tiene costo asociado por su incumplimiento no es un incentivo; es una sugerencia.
 3. **El sistema siempre revela su incentivo bajo presión:** En tiempos de holgura, la organización puede simular que cumple todos sus mandatos. En tiempos de crisis, el sistema revela qué incentivos protege y cuáles sacrifica.
@@ -72,6 +73,7 @@ Para validar el Incentivo Dominante, se debe medir su impacto relativo:
 Para validar el mapa, el sistema debe ser sometido a presión controlada.
 
 **Procedimiento:**
+
 1. Introducir una restricción operativa (tiempo, recursos o meta conflictiva).
 2. Forzar simultáneamente dos incentivos en tensión (ej. velocidad vs. control).
 3. Observar:
@@ -80,9 +82,11 @@ Para validar el mapa, el sistema debe ser sometido a presión controlada.
    * Quién absorbe la consecuencia.
 
 **Resultado esperado:**
+
 El sistema no negocia su incentivo dominante.
 
 **Diagnóstico:**
+
 El incentivo dominante no es el que se declara. Es el que sobrevive cuando todo lo demás se rompe.
 
 ---

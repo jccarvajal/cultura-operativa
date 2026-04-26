@@ -9,6 +9,7 @@ La normalización del desvío es silenciosa; no detona alarmas porque su princip
 ### I. AXIOMAS DE DETECCIÓN
 
 Para ejecutar este rastreo, el análisis debe regirse por tres leyes absolutas de la física organizacional:
+
 1. **El éxito encubre el desvío:** La ausencia de fallas operativas no demuestra que el control funciona; en sistemas degradados, demuestra que el desvío está siendo tolerado porque sigue siendo rentable. El sistema puede estar fallando sin generar telemetría.
 2. **Toda desviación no castigada redefine el estándar:** Si un atajo táctico es visible para la jerarquía y no activa corrección, el sistema acaba de aprobar una nueva política en la sombra.
 3. **La velocidad sostenida por sobre el diseño indica supresión de control:** Un proceso que fluye sistemáticamente más rápido que su diseño teórico no es un milagro de eficiencia; es un proceso que ha desactivado sus restricciones.
@@ -56,11 +57,13 @@ Para validar la normalización del desvío, se debe calcular la deriva del siste
 * % de decisiones tomadas en canales paralelos.
 
 **Regla de ponderación:**
+
 No toda desviación tiene el mismo impacto. La deriva debe ponderarse por criticidad del control omitido:
 * Desvío en control crítico (seguridad, cumplimiento legal) = multiplicador alto.
 * Desvío en control administrativo = multiplicador bajo.
 
 **Regla de clasificación:**
+
 * **Deriva baja:** < 5% → operación dentro del diseño.
 * **Deriva media:** 5–15% → adaptación táctica.
 * **Deriva alta:** > 15% → el diseño formal ha sido reemplazado.
@@ -74,6 +77,7 @@ No toda desviación tiene el mismo impacto. La deriva debe ponderarse por critic
 El instrumento debe validarse empíricamente.
 
 **Procedimiento:**
+
 1. Seleccionar un proceso crítico con cumplimiento declarado alto.
 2. Aplicar este sistema de detección.
 3. Contrastar:
@@ -82,9 +86,11 @@ El instrumento debe validarse empíricamente.
    * Rutas formales vs. rutas utilizadas.
 
 **Resultado esperado:**
+
 Identificación de desviación sistemática, evidencia de rutas paralelas y confirmación de ausencia de consecuencia.
 
 **Diagnóstico:**
+
 Si el sistema no detecta desviación en un proceso con fricción conocida, el instrumento falló.
 
 ---

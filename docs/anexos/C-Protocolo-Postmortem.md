@@ -74,6 +74,7 @@ Un postmortem estructural solo es válido si cumple simultáneamente:
 El protocolo debe validarse bajo condiciones controladas.
 
 **Procedimiento:**
+
 1. Seleccionar un incidente reciente ya cerrado por la organización.
 2. Reprocesarlo aplicando este protocolo.
 3. Comparar:
@@ -83,9 +84,11 @@ El protocolo debe validarse bajo condiciones controladas.
    * Cambios reales implementados.
 
 **Resultado esperado:**
+
 Desplazamiento desde la culpa individual hacia la configuración sistémica; identificación clara de incentivos, telemetría y consecuencia.
 
 **Diagnóstico:**
+
 Si el resultado no cambia respecto al análisis original, el sistema no está ejecutando un postmortem; está documentando fallas.
 
 ---

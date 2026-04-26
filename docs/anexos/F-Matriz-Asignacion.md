@@ -7,6 +7,7 @@ Las tradicionales matrices RACI (Responsible, Accountable, Consulted, Informed) 
 ### I. AXIOMAS DE ASIGNACIÓN
 
 Para auditar la responsabilidad real dentro de un sistema, el arquitecto debe operar bajo tres leyes innegociables:
+
 1. **La responsabilidad no es el cargo; es la consecuencia que no se puede evitar:** Un rol documentado como "responsable" es nulo si el diseño lo protege del impacto de la falla. La responsabilidad sin consecuencia es ficción administrativa.
 2. **La consecuencia siempre colapsa sobre el nodo con menor capacidad de defensa:** En ausencia de un diseño de acoplamiento rígido, la penalización esquivará a quien diseñó la regla y golpeará a quien intentó ejecutarla bajo presión. La consecuencia siempre converge en el nodo sin capacidad de veto.
 3. **Decidir sin pagar es condición de colapso:** Cualquier estructura que permita a un nodo jerárquico exigir resultados sin absorber el riesgo de la ejecución está diseñada para el desastre. Si el decisor no puede absorber consecuencia, el sistema absorberá el colapso.
@@ -60,6 +61,7 @@ El desacople no se declara; se mide. La siguiente batería permite cuantificar s
     * *Regla:* Si el 80%+ del impacto cae en la ejecución, existe desacople estructural.
 
 **Clasificación Operativa:**
+
 * **Acoplamiento estructural:** Decisión y consecuencia convergen en el mismo nodo.
 * **Acoplamiento degradado:** Consecuencia parcialmente redistribuida.
 * **Desacople estructural:** Decisión y consecuencia operan en capas distintas.
@@ -108,6 +110,7 @@ Toda deuda estructural se paga como crisis operativa o colapso sistémico.
 ### VIII. VALIDACIÓN DE LA MATRIZ
 
 La matriz es válida solo si permite demostrar:
+
 * Al menos un caso de desacople real.
 * Al menos una decisión sin consecuencia asociada.
 * Al menos un nodo protegido estructuralmente.

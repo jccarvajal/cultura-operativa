@@ -9,6 +9,7 @@ El objetivo de este anexo es diseñar una arquitectura donde la información cr�
 ### I. AXIOMAS DE TRANSMISIÓN DE DATOS
 
 Para construir transparencia real, el diseño de la red debe someterse a tres leyes de la física de sistemas:
+
 1. **El sistema ve lo que es seguro ver:** Si informar sobre una falla tiene un costo operativo o penal para el emisor, la información desaparece. No hay transparencia cuando ver cuesta.
 2. **La jerarquía es un filtro de telemetría:** El nodo intermedio, evaluado por la ausencia de fricción, tiene el incentivo de reportar el éxito y purgar el error. Dato procesado antes de la decisión es dato degradado.
 3. **La verdad no compite con la fricción; la evita:** Si ocultar un problema requiere menos esfuerzo que reportarlo, el sistema será opaco por diseño. La telemetría fluye por el camino de menor costo de consecuencia.
@@ -73,6 +74,7 @@ Para validar la visibilidad real del sistema, se deben medir las siguientes vari
     * *Regla:* Si reportar cuesta más que corregir localmente, el sistema induce silencio.
 
 **Clasificación:**
+
 * **Transparencia estructural:** Flujo sin veto + baja latencia + alta respuesta estructural.
 * **Transparencia aparente:** Flujo condicionado por jerarquía + alta latencia.
 * **Opacidad estructural:** Dependencia total de intermediarios + pérdida de telemetría.
@@ -82,6 +84,7 @@ Para validar la visibilidad real del sistema, se deben medir las siguientes vari
 ### VI. PRUEBA DE ESTRÉS DE TRANSPARENCIA
 
 Para validar el diseño, se debe introducir una anomalía controlada en el flujo táctico y medir:
+
 1. Tiempo en ser detectada por el sistema.
 2. Tiempo en escalar al nodo de decisión.
 3. Grado de intervención o intento de filtrado por los nodos intermedios.
@@ -94,6 +97,7 @@ Para validar el diseño, se debe introducir una anomalía controlada en el flujo
 ### VII. VALIDACIÓN DE LA ARQUITECTURA
 
 El sistema de transparencia se valida solo si cumple:
+
 * Los datos críticos llegan sin intervención.
 * La latencia es inferior al ciclo de decisión.
 * La información adversa no genera penalización al emisor.
