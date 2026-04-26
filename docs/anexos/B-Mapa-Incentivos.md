@@ -35,10 +35,12 @@ Esta matriz se utiliza para auditar la desconexión entre lo que el sistema dice
 Las fallas críticas rara vez ocurren por ausencia de incentivos, sino por colisión entre ellos. El auditor debe mapear las tensiones exactas donde el operador táctico es forzado a elegir.
 
 **A. Tensión Velocidad vs. Verificación**
+
 * *Escenario:* El sistema impone un SLA (tiempo de respuesta) innegociable, pero requiere una matriz de validación de tres niveles.
 * *Auditoría:* Medir si el sistema castiga más rápido el incumplimiento del SLA o la omisión de la firma. La variable cuyo incumplimiento activa consecuencia más rápida revela el incentivo dominante del sistema en ese punto.
 
 **B. Tensión Producción vs. Mantenimiento (o Seguridad)**
+
 * *Escenario:* El presupuesto de mantenimiento detiene la capacidad de producción continua.
 * *Auditoría:* Identificar quién absorbe la consecuencia si la máquina falla (mantenimiento) vs. quién la absorbe si no se llega a la meta del mes (operación). La consecuencia asimétrica revela el incentivo dominante del sistema en ese punto.
 
@@ -77,6 +79,7 @@ Para validar el mapa, el sistema debe ser sometido a presión controlada.
 1. Introducir una restricción operativa (tiempo, recursos o meta conflictiva).
 2. Forzar simultáneamente dos incentivos en tensión (ej. velocidad vs. control).
 3. Observar:
+
    * Qué regla se rompe primero.
    * Qué variable se protege.
    * Quién absorbe la consecuencia.

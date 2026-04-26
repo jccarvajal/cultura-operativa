@@ -9,6 +9,7 @@ La cultura no se encuesta; se audita.
 ### I. REGLAS FUNDAMENTALES DEL DIAGNÓSTICO
 
 Para ejecutar este instrumento con rigor forense, el auditor estructural debe someterse a tres principios innegociables:
+
 1. **Evidencia sobre percepción:** Prohibido preguntar a los operadores "cómo se sienten" respecto a una política. La única pregunta válida es: ¿qué ocurre estructuralmente cuando la política entra en conflicto con la producción?
 2. **El documento no es evidencia de control:** La existencia de una firma, un manual o una política no demuestra alineación; solo demuestra capacidad de generar trazabilidad.
 3. **El comportamiento es el resultado, no la causa:** Si se detecta un desvío generalizado, no se diagnostica como negligencia colectiva, sino como un ajuste racional a los incentivos del diseño.
@@ -47,15 +48,18 @@ Se debe levantar evidencia documental y táctica sobre las siguientes contradicc
 Para asegurar que el diagnóstico no sea contaminado por el discurso corporativo, la recolección de datos debe seguir estos vectores:
 
 **A. Rastreo de Desviaciones Exitosas**
+
 * No auditar solo los incidentes. Auditar los éxitos rápidos y sin fricción. 
 * Identificar operaciones que se completaron en tiempos récord o bajo condiciones de alta presión.
 * *Métrica:* Proporción de operaciones exitosas que requieren desvío del flujo formal para completarse sin consecuencia.
 
 **B. Auditoría de Consecuencia Inversa**
+
 * Buscar instancias donde un operador siguió las reglas estrictamente, lo que resultó en un retraso operativo.
 * *Métrica:* Evaluar si ese operador fue respaldado por la jerarquía o si absorbió consecuencia directa (formal o informal) por causar el retraso. 
 
 **C. Mapeo de Trazabilidad Defensiva**
+
 * Analizar los sistemas de aprobación (comités, firmas cruzadas).
 * *Métrica:* Identificar qué porcentaje de las firmas en procesos críticos se otorgan sin el tiempo técnico mínimo requerido para análisis real. (Detección de validación sin exposición a consecuencia).
 

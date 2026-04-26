@@ -34,14 +34,17 @@ El sistema de detección se calibra midiendo cuatro vectores de comportamiento o
 Dado que el desvío normalizado opera en la zona de ceguera del sistema, los métodos tradicionales de auditoría (pedir documentos) son insuficientes. La evidencia se extrae aplicando presión en los puntos ciegos:
 
 **A. Auditoría de Excepciones Permanentes**
+
 * Las organizaciones formales camuflan el desvío llamándolo "excepción".
 * *Acción:* Levantar el volumen de excepciones aprobadas en los últimos 12 meses. Si la excepción supera un umbral de excepción sostenida (ej. >5% mensual o >3 meses consecutivos), el sistema ya migró de diseño sin declararlo.
 
 **B. Contraste de Fricción Cero**
+
 * Buscar puntos del proceso donde el diseño teórico asume que habrá conflicto técnico (ej. un control de calidad severo) pero la revisión histórica muestra aprobación unánime y rápida.
 * *Acción:* Interrogar mecánicamente esa falsa convergencia. Comprobar si el nodo validador cuenta siquiera con los recursos (tiempo, datos) para realizar la revisión que firma. Toda convergencia sin fricción es sospechosa.
 
 **C. Prueba de Inversión de Carga**
+
 * Exigir temporalmente el cumplimiento estricto y literal del manual en un proceso sospechoso de desvío (operar "a reglamento").
 * *Acción:* Si operar según el manual detiene o degrada críticamente el sistema, el manual no describe el sistema; lo oculta.
 
@@ -59,6 +62,7 @@ Para validar la normalización del desvío, se debe calcular la deriva del siste
 **Regla de ponderación:**
 
 No toda desviación tiene el mismo impacto. La deriva debe ponderarse por criticidad del control omitido:
+
 * Desvío en control crítico (seguridad, cumplimiento legal) = multiplicador alto.
 * Desvío en control administrativo = multiplicador bajo.
 
@@ -81,6 +85,7 @@ El instrumento debe validarse empíricamente.
 1. Seleccionar un proceso crítico con cumplimiento declarado alto.
 2. Aplicar este sistema de detección.
 3. Contrastar:
+
    * Cumplimiento documental vs. ejecución real.
    * Controles definidos vs. controles efectivos.
    * Rutas formales vs. rutas utilizadas.

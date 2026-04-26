@@ -21,14 +21,17 @@ Para construir transparencia real, el diseño de la red debe someterse a tres le
 La transparencia operativa exige eliminar el control discrecional que tienen los nodos intermedios sobre la información. No se mejora la comunicación; se rediseña la ruta.
 
 **A. Telemetría Cruda (Bypass Estructural)**
+
 * La recolección de datos debe estar desacoplada de la interpretación jerárquica.
 * Los indicadores críticos (errores, excepciones, desviaciones, tiempos reales) deben fluir hacia la capa de decisión sin agregación, sin consolidación y sin "explicación" previa.
 
 **B. Rutas Paralelas Obligatorias**
+
 * Todo flujo crítico debe tener al menos una vía independiente y no interceptable que no dependa de la cadena de mando directa. La información no puede requerir autorización jerárquica para existir.
 * **Indicador de falla:** Si un jefe puede bloquear un dato, el sistema es estructuralmente opaco.
 
 **C. Trazabilidad de Intervención**
+
 * Toda alteración, supresión o retraso de un dato debe dejar un registro inmutable, auditable y atribuible. El sistema debe registrar quién vio el dato, cuándo y qué hizo con él.
 * **Regla:** Ocultar información debe ser estructuralmente más riesgoso que reportarla.
 
@@ -51,13 +54,16 @@ El sistema no castiga el error; castiga la pérdida de telemetría. Sin este des
 ### IV. REDUCCIÓN DEL COSTO DE VISIBILIDAD
 
 **A. Fricción de reporte cercana a cero**
+
 * Reportar debe ser procedimentalmente más fácil que ocultar. Sin formularios extensos ni validaciones previas para levantar una alerta.
 * El sistema prioriza datos incompletos sobre ausencia de datos.
 
 **B. Prohibición de filtrado por solución**
+
 * Consignas como "tráeme soluciones, no problemas" son bloqueadores estructurales de telemetría. Obligan al operador a ocultar la falla hasta que tenga una respuesta, degradando el tiempo de reacción del sistema.
 
 **C. Retroalimentación obligatoria**
+
 * El emisor debe tener visibilidad del procesamiento de su información. Si el sistema no responde con una acción estructural, el canal de transparencia muere por inanición.
 
 ---

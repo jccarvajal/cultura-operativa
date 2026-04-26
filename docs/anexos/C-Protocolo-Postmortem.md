@@ -34,14 +34,17 @@ El auditor estructural reemplaza las preguntas de responsabilidad moral por preg
 La recolección de datos debe diseccionar la tríada operativa que sostenía el comportamiento en el momento de la falla:
 
 **A. Vector de Tolerancia y Precedente (Capítulo 16)**
+
 * Levantar evidencia de cuántas veces antes se había ejecutado la misma desviación de forma exitosa sin detonar alarmas ni recibir castigo.
 * Determinar si la jerarquía había enviado señales previas tolerando o premiando esa ruta paralela por su velocidad. La repetición sin consecuencia redefine el estándar operativo.
 
 **B. Vector de Telemetría (Capítulo 18)**
+
 * Rastrear dónde se originó la primera anomalía y en qué nodo se interceptó o detuvo la información.
 * Identificar el "peaje informacional": verificar si el sistema penalizaba implícitamente el acto de escalar malas noticias. Todo peaje informacional reduce la visibilidad del sistema.
 
 **C. Vector de Dilución (Capítulo 14)**
+
 * Analizar la cadena de aprobaciones formales previas a la materialización de la falla.
 * Auditar el "cumplimiento ritualista": demostrar qué firmas en la cadena de flujo validaron el proceso simulando restricción, sin ejercer escrutinio ni exposición a consecuencia.
 
@@ -78,6 +81,7 @@ El protocolo debe validarse bajo condiciones controladas.
 1. Seleccionar un incidente reciente ya cerrado por la organización.
 2. Reprocesarlo aplicando este protocolo.
 3. Comparar:
+
    * Causa original declarada.
    * Causa estructural detectada.
    * Distribución de consecuencia.

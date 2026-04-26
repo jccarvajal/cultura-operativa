@@ -34,14 +34,17 @@ Esta herramienta desmantela la narrativa de la rendición de cuentas. Se aplica 
 La matriz expone de inmediato las tres tipologías clásicas mediante las cuales el sistema evade la consecuencia:
 
 **A. El Escudo Jerárquico**
+
 * *Mecánica:* La gerencia impone una meta de volumen matemáticamente incompatible con los controles de calidad. El operador asume el riesgo de adulterar el control para cumplir la meta y conservar su empleo.
 * *El Colapso:* Cuando la falla se hace pública, el operador es despedido por "violación ética". La gerencia mantiene sus bonos por volumen. La consecuencia fue contenida en la base.
 
 **B. La Dilución Colegiada (Capítulo 14)**
+
 * *Mecánica:* Una decisión de alto riesgo requiere la firma cruzada de cinco gerencias distintas en un comité.
 * *El Colapso:* La decisión destruye valor. El análisis postmortem demuestra que todos firmaron asumiendo que otro había revisado. Al estar la decisión socializada, no existe punto de aplicación de consecuencia. El riesgo quedó huérfano. Si validar no duele, validar no existe.
 
 **C. La Transferencia de Fricción**
+
 * *Mecánica:* Un departamento de diseño o cumplimiento (Compliance) crea un proceso inoperante y burocrático que bloquea la operación diaria, pero no asume métricas de negocio.
 * *El Colapso:* La primera línea no alcanza las metas comerciales por cumplir la burocracia. Operaciones absorbe la penalización; Cumplimiento cumple métricas sin absorber impacto. 
 
