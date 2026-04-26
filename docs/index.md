@@ -53,6 +53,8 @@ El contenido está organizado en cinco bloques que diseccionan la anatomía del 
 ### Introducción
 Reglas de compromiso y definición del marco de análisis.
 
+* [Nota al Lector: Advertencia de Enfoque](./nota-al-lector.md)
+  *El fin del misticismo organizacional y las reglas de verificación del tratado.*
 * [Prólogo: El Ángulo Estructural](./prologo.md)
   *Por qué la cultura no es una falla del sistema, sino su salida observable.*
 * [Ideas Centrales](./ideas-centrales.md)
