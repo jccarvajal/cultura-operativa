@@ -85,10 +85,9 @@ El instrumento debe validarse empíricamente.
 1. Seleccionar un proceso crítico con cumplimiento declarado alto.
 2. Aplicar este sistema de detección.
 3. Contrastar:
-
-   * Cumplimiento documental vs. ejecución real.
-   * Controles definidos vs. controles efectivos.
-   * Rutas formales vs. rutas utilizadas.
+      * Cumplimiento documental vs. ejecución real.
+      * Controles definidos vs. controles efectivos.
+      * Rutas formales vs. rutas utilizadas.
 
 **Resultado esperado:**
 

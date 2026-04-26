@@ -82,10 +82,10 @@ El protocolo debe validarse bajo condiciones controladas.
 2. Reprocesarlo aplicando este protocolo.
 3. Comparar:
 
-   * Causa original declarada.
-   * Causa estructural detectada.
-   * Distribución de consecuencia.
-   * Cambios reales implementados.
+      * Causa original declarada.
+      * Causa estructural detectada.
+      * Distribución de consecuencia.
+      * Cambios reales implementados.
 
 **Resultado esperado:**
 
