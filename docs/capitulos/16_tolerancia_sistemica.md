@@ -1,0 +1,11 @@
+## Capítulo 16: Tolerancia organizacional al riesgo
+
+La tolerancia al riesgo no se declara; se observa en lo que el sistema permite sin castigo. En el análisis estructural, esta tolerancia se manifiesta en tres niveles: la declarada (el límite formal documentado), la operativa (el límite real en la fricción diaria) y la latente. La tolerancia latente se revela en el comportamiento de la primera línea, donde el riesgo acumulado se financia de forma pasiva hasta que se manifiesta en una falla.
+
+La tolerancia es la ausencia de consecuencia. En estas condiciones, el sistema incorpora el comportamiento dentro de su operación sin necesidad de validación formal. Cuando existe una brecha entre el control que restringe el proceso y el incentivo que impulsa la producción, el comportamiento táctico asume ese riesgo. El sistema favorece el riesgo cuando la recompensa es inmediata y la consecuencia es diferida.
+
+La desviación exitosa define la frontera real del sistema. Cuando un atajo procedimental o la omisión de un control permite alcanzar el objetivo sin producir una falla visible, el sistema confirma que el desvío es seguro. La tolerancia se consolida cuando la exposición al riesgo no es visible para los mecanismos de control o, siendo visible, no activa corrección. El sistema no premia el proceso; premia el resultado sin falla visible.
+
+Esta dinámica está directamente ligada a la arquitectura de responsabilidad. Cuando nadie absorbe la consecuencia, todos pueden asumir el riesgo. La dilución estructural (Capítulo 14) incrementa la tolerancia al dificultar la asignación de penalizaciones frente a la falla. Si el diseño impide que la penalización recaiga sobre el nodo de decisión, la asunción de riesgos tácticos se vuelve el camino de menor resistencia. Esta tolerancia sostenida constituye la base para la normalización del desvío (Capítulo 7). Toda desviación no castigada se convierte en estándar.
+
+En síntesis, la tolerancia define la zona operativa real de la organización. Su naturaleza no se encuentra en las políticas aprobadas, sino en aquello que la red absorbe sin activar una corrección. El sistema siempre opera en el límite de lo que tolera, no en el límite de lo que declara. Cuando el sistema no castiga el riesgo, lo institucionaliza.

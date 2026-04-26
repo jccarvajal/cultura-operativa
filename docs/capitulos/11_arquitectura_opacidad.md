@@ -1,0 +1,15 @@
+## Capítulo 11: Heroísmo como síntoma estructural
+
+El heroísmo operativo no es excelencia; es compensación. En el discurso corporativo tradicional, el esfuerzo individual extraordinario para rescatar un proyecto o estabilizar una operación suele codificarse como alto desempeño. La organización reacciona premiando tácticamente al individuo y asimilando este comportamiento como el estándar esperado. Sin embargo, bajo un análisis de diseño estructural, la necesidad de heroísmo indica que el sistema no funciona. 
+
+El heroísmo aislado no es problema. El problema aparece cuando es necesario para operar. En estos casos, el heroísmo se manifiesta porque el diseño formal resulta incapaz de procesar la carga de trabajo o mitigar los riesgos inherentes al flujo. Para evitar el colapso operativo, un nodo táctico se desvía del procedimiento. El sistema empieza a depender de acciones que no puede reproducir de forma sistemática. El humano compensa lo que el diseño no soporta.
+
+¿Qué arquitectura normaliza este comportamiento? Aquella que recompensa asimétricamente el resultado visible mientras ignora la degradación subyacente del proceso. A mayor degradación del sistema, mayor necesidad de intervención extraordinaria. El heroísmo aparece cuando resolver tiene recompensa y prevenir no. En estas condiciones, el incentivo dominante favorece la resolución visible por sobre la estabilidad estructural. 
+
+El sistema premia apagar incendios y no construir sistemas que no se incendien. Si el mecanismo de consecuencia otorga mayor viabilidad y estatus al operador que rescata la operación en el último minuto que a quien repara la vulnerabilidad antes de la ignición, el incentivo real condiciona a la red a operar en fricción. El heroísmo se ve. La falla estructural no. La vulnerabilidad de diseño permanece ciega para los sistemas de información, mientras el parche humano captura la validación jerárquica.
+
+Bajo condiciones normales, el heroísmo sostiene la ilusión de que el sistema funciona. El sistema no corrige la degradación; simplemente la enmascara mediante esfuerzo humano. Una vez consolidada, esta dependencia estructural se integra como parte regular de la operación. 
+
+El costo del heroísmo no aparece en ningún indicador. No se registra en métricas formales ni en reportes directivos. Se manifiesta como sobrecarga operativa en la primera línea, pérdida de telemetría y una reducción crítica de los márgenes de seguridad. La organización externalizó su estabilidad al sacrificio individual.
+
+Cuando el entorno impone un pico de presión imprevisto, la capacidad humana alcanza su límite físico y cognitivo. El sistema colapsa cuando se queda sin héroes. El colapso posterior no ocurre por una caída repentina en el compromiso de la primera línea; ocurre porque el diseño estructural carecía de márgenes propios para operar. La presión no rompe el sistema; elimina la compensación.

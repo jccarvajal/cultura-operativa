@@ -1,0 +1,13 @@
+## Capítulo 19: Postmortem estructural
+
+Toda falla revela el diseño real del sistema. El evento de una vulneración, una falla o un colapso operativo desencadena una fase de investigación dentro de la organización. El postmortem siempre toma una de tres formas: asignación de culpa, reconstrucción narrativa, o análisis estructural. Solo una de ellas modifica el sistema.
+
+En la práctica organizacional tradicional, este escrutinio suele orientarse hacia la identificación de la desviación individual. El análisis termina cuando aparece un culpable. Al etiquetar el evento exclusivamente como negligencia o inobservancia del manual, este enfoque protege el diseño y sacrifica la verdad: genera una resolución aparente que aísla la falla discursivamente, pero deja intactas las condiciones estructurales que la hicieron viable.
+
+El postmortem estructural opera bajo una premisa mecánica distinta. El error no es la causa; es el último punto visible del sistema. El error operativo es el síntoma final de una matriz de incentivos contradictorios, un flujo de información defectuoso o un diseño de herramientas asimétrico. El análisis estructural no pregunta quién falló, sino por qué fallar era posible.
+
+El postmortem define el comportamiento futuro del sistema. Es la extensión del procesamiento del error cotidiano (Capítulo 9) operando bajo condiciones de falla visible. El aprendizaje del sistema está determinado por cómo se asigna la consecuencia. Cuando el sistema castiga al individuo, aprende a esconder el error. Si la consecuencia se concentra en el último operador, el sistema aprende a desviar la culpa, no a corregir la falla. 
+
+El análisis estructural es evitado porque obliga a cambiar el sistema. Ejecutar un escrutinio profundo expone asimetrías organizacionales que la jerarquía prefiere mantener en la invisibilidad. Sin embargo, eludir este análisis asegura la repetición del colapso. Todo postmortem redefine los incentivos, condicionando el comportamiento futuro de la red frente a fallas similares. 
+
+Un postmortem estructural desplaza el foco analítico desde el individuo hacia la configuración de la red. Expone qué incentivos estaban en tensión real, qué señales de telemetría estaban ciegas para la jerarquía y qué mecanismos de consecuencia condicionaron la decisión final. La responsabilidad individual existe, pero siempre dentro de un diseño que la permite. Un sistema que busca culpables repite errores. Un sistema que analiza su diseño puede corregirlos. Si el diseño no cambia, la falla es inevitable.

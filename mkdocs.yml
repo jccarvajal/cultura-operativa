@@ -1,0 +1,115 @@
+site_name: Cultura Operativa
+site_url: https://cultura.jccarvajal.com
+site_author: Juan Carlos Carvajal
+site_description: Arquitectura, Incentivos y Comportamiento Bajo Incertidumbre
+copyright: Copyright &copy; 2026 Juan Carlos Carvajal - Licencia CC BY-NC-ND 4.0
+
+# Configuración del Tema (Material for MkDocs - Modo Institucional/Sobrio)
+theme:
+  name: material
+  language: es
+  logo: assets/images/portada-cultura.png
+  favicon: assets/images/favicon.ico
+  palette: 
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+
+# Extensiones (ACTIVACIÓN DE MERMAID & LATEX)
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - def_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex: # Para fórmulas matemáticas (Matemática del Riesgo)
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+# Sección de Plugins  
+plugins:
+  - search
+
+# Mapa del Sitio (Estructura libro Cultura Operativa)
+nav:
+  - Inicio: index.md
+  - Introducción:
+    - Nota al Lector: nota-al-lector.md
+    - Prólogo: prologo.md
+    - Ideas Centrales: ideas-centrales.md
+  - 'Bloque I: Definición Operativa':
+      - 'Capítulo 01: Comportamiento Observable': capitulos/01_ilusion_cultural.md
+      - 'Capítulo 02: Cultura Declarada vs Operativa': capitulos/02_cultura_output.md
+      - 'Capítulo 03: Incentivos Formales vs Reales': capitulos/03_triada_estructural.md
+      - 'Capítulo 04: Sistema de Consecuencia': capitulos/04_arquitectura_vs_comportamiento.md
+  - 'Bloque II: Arquitectura y Manifestación':
+      - 'Capítulo 05: Diseño y Conducta': capitulos/05_incentivo_dominante.md
+      - 'Capítulo 06: Cumplimiento Ritualista': capitulos/06_decision_tactica.md
+      - 'Capítulo 07: Normalización del Desvío': capitulos/07_friccion_operativa.md
+      - 'Capítulo 08: Arquitectura Efectiva': capitulos/08_cumplimiento_ritualista.md
+  - 'Bloque III: Operación Normal y Presión':
+      - 'Capítulo 09: Error y Aprendizaje': capitulos/09_normalizacion_desvio.md
+      - 'Capítulo 10: Silencio Organizacional': capitulos/10_ceguera_organizacional.md
+      - 'Capítulo 11: Heroísmo Estructural': capitulos/11_arquitectura_opacidad.md
+      - 'Capítulo 12: Señal Cultural': capitulos/12_dilucion_responsabilidad.md
+  - 'Bloque IV: Patologías del Diseño y Desacople':
+      - 'Capítulo 13: Asignación de Consecuencia': capitulos/13_desacople_estructural.md
+      - 'Capítulo 14: Dilución de Responsabilidad': capitulos/14_ficcion_comite.md
+      - 'Capítulo 15: Ausencia de Conflicto': capitulos/15_transferencia_friccion.md
+      - 'Capítulo 16: Tolerancia al Riesgo': capitulos/16_tolerancia_sistemica.md
+  - 'Bloque V: Alineación y Configuración':
+      - 'Capítulo 17: Discurso e Incentivo': capitulos/17_colision_incentivos.md
+      - 'Capítulo 18: Transparencia Operativa': capitulos/18_latencia_decision.md
+      - 'Capítulo 19: Postmortem Estructural': capitulos/19_postmortem_estructural.md
+      - 'Capítulo 20: Reconfiguración Estructural': capitulos/20_reingenieria_restricciones.md
+  - Conclusión:
+      - 'Epílogo': epilogo.md
+  - Anexos Operativos:
+      - 'Anexo A: Diagnóstico de Cultura': anexos/A-Diagnostico-Cultura.md
+      - 'Anexo B: Mapa de Incentivos': anexos/B-Mapa-Incentivos.md
+      - 'Anexo C: Protocolo Postmortem': anexos/C-Protocolo-Postmortem.md
+      - 'Anexo D: Detección de Desvío': anexos/D-Sistema-Deteccion.md  
+      - 'Anexo E: Arq. de Transparencia': anexos/E-Arquitectura-Transparencia.md  
+      - 'Anexo F: Matriz de Asignación': anexos/F-Matriz-Asignacion.md  
+  - Referencias:
+    - Glosario: referencias/Glosario.md
+    - Bibliografía: referencias/Bibliografia.md
+  - Acerca de:
+    - Autor: acerca/autor.md
+    - Licencia: acerca/licence.md
+    - Cómo Contribuir: acerca/contribuir.md
+    - Historial (Changelog): changelog.md

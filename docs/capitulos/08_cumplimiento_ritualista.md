@@ -1,0 +1,13 @@
+## Capítulo 8: Arquitectura formal vs arquitectura efectiva
+
+La arquitectura formal es un modelo; la arquitectura efectiva es el sistema. La arquitectura formal es una hipótesis de diseño sobre cómo la organización debería procesar la información y distribuir la autoridad a través de organigramas y matrices teóricas. En contraste, la arquitectura efectiva es la red dinámica, fáctica y auditable a través de la cual la información fluye realmente, se ejercen los vetos y se ejecutan las decisiones. La arquitectura efectiva no se documenta; se observa.
+
+En la práctica, la organización opera simultáneamente en estos dos sistemas. Cuando el diseño formal bloquea la operación, el sistema no se detiene; se reconfigura. Los nodos tácticos, ajustando su comportamiento en función de los incentivos, la fricción operativa y la consecuencia observada, construyen rutas alternativas para sostener el flujo de trabajo.
+
+Estas rutas se consolidan cuando el diseño formal no permite cumplir los incentivos operativos bajo las condiciones reales del entorno. Canales paralelos, validaciones informales y reasignaciones fácticas de funciones constituyen la arquitectura efectiva del sistema. En esta red, los controles formales pueden ser reconfigurados, desplazados o anulados sin modificación documental correspondiente.
+
+La arquitectura efectiva se consolida cuando sus rutas no activan consecuencia, incluso si contradicen el diseño formal. En estos casos, la operación se alinea con las rutas que permiten sostener el flujo sin penalización. La persistencia de rutas paralelas no es una anomalía; es evidencia de integración estructural. Una vez estabilizadas, estas rutas operan como parte regular del sistema.
+
+Esta divergencia estructural puede permanecer en invisibilidad institucional mientras los indicadores de salida se mantengan dentro de rangos aceptables. El sistema premia el resultado y omite auditar la ruta. En sistemas complejos, la operación depende de la arquitectura efectiva, incluso cuando contradice el diseño formal.
+
+En condiciones operativas, la arquitectura efectiva predomina sobre la formal en la determinación del comportamiento colectivo. Analizar o auditar el riesgo de un sistema basándose únicamente en su representación documental implica ignorar la red efectiva de decisión donde se definen las acciones reales. Cuando se produce un colapso o una vulneración grave, la falla rara vez ocurre en el organigrama; ocurre porque en la arquitectura efectiva, el control había sido desactivado estructuralmente. El organigrama no ejecuta decisiones; la arquitectura efectiva sí. El sistema no opera como está diseñado; opera como puede sin activar consecuencia.

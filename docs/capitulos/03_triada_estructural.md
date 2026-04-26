@@ -1,0 +1,13 @@
+## Capítulo 3: Incentivos formales vs incentivos reales
+
+La arquitectura de incentivos define la dirección del esfuerzo colectivo. Sin embargo, el análisis de diseño estructural exige una demarcación clara entre el incentivo formal —el parámetro de recompensa documentado institucionalmente— y el incentivo real. Un incentivo real es aquel capaz de producir consecuencia observable sobre la posición del actor en el sistema. Un incentivo sin consecuencia no es operativo.
+
+Los incentivos formales son explícitos y estáticos: matrices de evaluación de desempeño, bonos por cumplimiento normativo o planes de ascenso. Se diseñan bajo supuestos de alineación con la cultura declarada. No obstante, su capacidad para moldear el comportamiento colectivo depende de su traducción efectiva en consecuencias observables dentro de la operación diaria.
+
+En contraste, los incentivos reales tienden a dominar bajo condiciones de fricción, incertidumbre o baja fiscalización. Se manifiestan de forma dinámica a través del flujo de información, la distribución de la carga de trabajo y la aplicación empírica de consecuencias. Aunque la arquitectura formal exija reportar vulnerabilidades, detener el flujo operativo para hacerlo puede implicar pérdida de influencia o retraso. El incentivo real, en ese escenario, es evitar esa penalización aplicada sistemáticamente por la red operativa.
+
+Bajo condiciones de presión o recursos limitados, el comportamiento tenderá a alinearse con los incentivos que concentran consecuencia efectiva. En contextos de señales en conflicto, esta alineación se produce en torno a una ley estructural: el comportamiento se alinea con el incentivo dominante, aquel cuyo incumplimiento activa la mayor consecuencia.
+
+Los actores no responden a un único incentivo; resuelven tensiones entre variables en competencia —como cumplimiento versus velocidad, calidad versus costo, o mitigación de riesgo versus continuidad—. La decisión táctica prioriza aquellas que afectan su viabilidad operativa. La cultura operativa emerge, entonces, como el resultado agregado de este ajuste en función de las restricciones del entorno y el historial de consecuencias.
+
+Por lo tanto, patrones conductuales generalizados dentro de una organización —como la omisión sistemática de controles cruzados o la acumulación tolerada de deuda técnica— no constituyen fallas actitudinales; son evidencia estructural de una matriz de incentivos que reduce el costo táctico del desvío o incrementa el costo operativo del cumplimiento. El comportamiento observable no es una anomalía; es la manifestación consistente de la arquitectura de incentivos del sistema.
