@@ -5,6 +5,7 @@
 La cultura no se alinea con lo que se declara; se alinea con lo que tiene consecuencias. En el intento de configurar la cultura operativa, la práctica corporativa recurre al uso intensivo de mecanismos declarativos: campañas de valores, misiones institucionales y adoctrinamiento ético. Bajo el análisis de diseño de sistemas, esta aproximación es estéril. Un discurso sin consecuencia es estructuralmente irrelevante. Cuando la narrativa no está respaldada por una estructura real de incentivos, pierde capacidad de restricción y queda desplazada por la operación efectiva.
 
 El sistema se desalinea cuando quien define la regla no absorbe su costo. Esta fractura entre los nodos que redactan las políticas y los nodos que controlan el presupuesto y las métricas de éxito genera una divergencia. La desalineación adopta tres formas estructurales:
+
 * Contradicción: el sistema castiga lo que declara exigir.
 * Ambigüedad: múltiples señales compiten sin resolución.
 * Vacío: el discurso no tiene soporte operativo.

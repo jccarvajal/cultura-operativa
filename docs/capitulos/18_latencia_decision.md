@@ -3,6 +3,7 @@
 La transparencia no es un valor; es una propiedad del sistema. En el léxico corporativo tradicional, se prescribe como una aspiración moral o un imperativo de honestidad exigible a los individuos. Bajo la óptica del diseño estructural, esta conceptualización es estéril. La transparencia organizacional no es un atributo ético. La transparencia es la capacidad del sistema para transmitir datos sin distorsión. Es el grado en que la telemetría táctica puede fluir desde la base operativa hasta los nodos de toma de decisión sin ser adulterada, filtrada o destruida.
 
 La transparencia se expresa en tres niveles:
+
 * Formal: lo que el sistema reporta.
 * Operativa: lo que realmente fluye.
 * Latente: lo que existe pero no se puede ver.
