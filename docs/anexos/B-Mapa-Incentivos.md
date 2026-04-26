@@ -79,10 +79,9 @@ Para validar el mapa, el sistema debe ser sometido a presión controlada.
 1. Introducir una restricción operativa (tiempo, recursos o meta conflictiva).
 2. Forzar simultáneamente dos incentivos en tensión (ej. velocidad vs. control).
 3. Observar:
-
-   * Qué regla se rompe primero.
-   * Qué variable se protege.
-   * Quién absorbe la consecuencia.
+      * Qué regla se rompe primero.
+      * Qué variable se protege.
+      * Quién absorbe la consecuencia.
 
 **Resultado esperado:**
 

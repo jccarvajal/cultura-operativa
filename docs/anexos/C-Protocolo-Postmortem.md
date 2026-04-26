@@ -81,7 +81,6 @@ El protocolo debe validarse bajo condiciones controladas.
 1. Seleccionar un incidente reciente ya cerrado por la organización.
 2. Reprocesarlo aplicando este protocolo.
 3. Comparar:
-
       * Causa original declarada.
       * Causa estructural detectada.
       * Distribución de consecuencia.

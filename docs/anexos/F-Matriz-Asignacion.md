@@ -83,6 +83,7 @@ Para validar si el sistema realmente está acoplado, se ejecuta el siguiente esc
 4. **Intento de desplazamiento de consecuencia:** Documentar si se intentó redirigir la responsabilidad hacia otro nodo.
 
 **Resultado Esperado (Sistema Sano):** Decisión y consecuencia están acopladas. La jerarquía no puede externalizar el riesgo hacia la base.
+
 **Resultado Real (Sistema Defectuoso):** Decisión arriba, ejecución abajo, consecuencia abajo.
 
 **Diagnóstico Automático:** Si el que decide no puede absorber consecuencia, la decisión es estructuralmente inválida. El sistema no falla donde se ejecuta; falla donde nadie paga.
