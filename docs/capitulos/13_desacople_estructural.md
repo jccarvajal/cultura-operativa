@@ -1,3 +1,5 @@
+# Bloque IV: Patologías del Diseño y Desacople
+
 ## Capítulo 13: Asignación real de consecuencia
 
 La responsabilidad no se define por el cargo; se define por quién absorbe la consecuencia. En el diseño organizacional teórico, las descripciones de cargo trazan líneas donde la autoridad conlleva responsabilidad sobre las fallas. Sin embargo, en el análisis de la arquitectura efectiva, la responsabilidad es la consecuencia aplicada. Es un patrón dinámico que determina quién absorbe el impacto cuando el sistema pierde consistencia operativa. La asignación real rara vez respeta la simetría del organigrama.
