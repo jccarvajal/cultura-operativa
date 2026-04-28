@@ -6,7 +6,7 @@
 
 <img src="assets/images/portada-cultura.png" alt="Portada del Libro - Cultura Operativa" width="500">
 
---
+---
 
 ## 🎧 Versión Audio (Resumen / Podcast)
 
