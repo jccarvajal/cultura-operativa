@@ -12,7 +12,7 @@
 
 Antes de leer, puedes comenzar por el audio:
 
-⏱️ **Duración:** 20 minutos  
+⏱️ **Duración:** 24 minutos  
 
 <audio controls>
   <source src="assets/audio/cultura-operativa.m4a" type="audio/mp4">
